@@ -6,7 +6,7 @@ nodes:
   - containerPort: 30007
     hostPort: 30007
 - role: worker
-  extraPortMappings:
+  extraPortMappings:    # open port on container valid for node port and loacl
   - containerPort: 30007
     hostPort: 30008
 - role: worker
